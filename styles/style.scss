@@ -8,6 +8,7 @@
   text-decoration: none;
   list-style-type: none;
 }
+
 /*VARIABLES*/
 $c1: #012113;
 $c2: #222725;
@@ -16,3 +17,149 @@ $c4: #E4E6C3;
 $c5: #F7F7F2;
 $font1: 'Noto Serif KR', serif;
 $font2: 'Poppins', sans-serif;
+
+.container-general {
+  .container-navbar {
+    .logo-site {
+      #logo-company {}
+    }
+
+    .container-menu {
+      #open-menu {}
+      
+      .menu {
+        #close-menu {}
+        #modes {}
+
+        nav {
+          #menu-options {
+            .links {
+              a {}
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container-hero-section {
+    .container-texts {
+      .text-one {}
+      .text-two {}
+    }
+
+    .arch-simplorium-one {}
+  }
+
+  .container-about {
+    .container-about-enclousure {
+      .title-about {}
+      .block-text-about {}
+    }
+  }
+
+  .container-services {
+    .container-services-enclousure {
+      .title-service {}
+
+      .container-specific-service {
+        .topic-one {
+          span {}
+        }
+
+        .small-explain-text {}
+
+        .flex-image-1 {
+          .service-photo-one {}
+        }
+        
+        .topic-two {
+          span {}
+        }
+
+        .small-explain-text {}
+
+        .flex-image-2 {
+          .service-photo-two {}
+        }
+
+        .topic-three {
+          span {}
+        }
+
+        .small-explain-text {}
+
+        .flex-image-3 {
+          .service-photo-three {}
+        }
+      }
+    }
+  }
+
+  .container-our-team {
+    .container-our-team-enclousure {
+      .container-text-team {
+        .title-team {}
+        .text-team {}
+      }
+
+      .container-team {
+        .container-info-team {
+          .profile-pic {}
+          .container-info-person {
+            .name {}
+            .ocuppation {}
+          }
+        }
+      }
+    }
+  }
+
+  .container-footer {
+    footer {
+      .container-footer-enclousure {
+        .container-text-footer {
+          .title-footer {}
+          .question-text-footer {}
+        }
+
+        form {
+          .title-forms {}
+
+          #name {}
+          #phone {}
+          #email {}
+          #button {}
+        }
+      }
+
+      .container-footer-links {
+        .container-footer-links {
+          .container-logo-footer {
+            .logo-company {}
+          }
+
+          .container-links {
+            .footer-links-1 {
+              li {
+                a {}
+              }
+            }
+
+            .footer-links-2 {
+              li {
+                a {}
+              }
+            }
+
+            .footer-links-3 {
+              li {
+                a {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
