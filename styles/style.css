@@ -8,4 +8,44 @@
   list-style-type: none;
 }
 
-/*VARIABLES*//*# sourceMappingURL=style.css.map */
+.hidden {
+  display: none;
+}
+
+/*VARIABLES*/
+.container-general .container-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
+  border: 3px solid orange;
+}
+.container-general .container-navbar .logo-site #logo-company {
+  width: 8em;
+}
+.container-general .container-navbar .container-menu {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  align-self: center;
+}
+.container-general .container-navbar .container-menu #open-menu {
+  color: black;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.container-general .container-navbar .container-menu .menu #close-menu {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: rgba(34, 39, 37, 0.8117647059);
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.container-general .container-navbar .container-menu .menu nav #menu-options .links a {
+  color: #012113;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */

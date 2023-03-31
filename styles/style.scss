@@ -9,9 +9,14 @@
   list-style-type: none;
 }
 
+.hidden {
+  display: none;
+}
+
 /*VARIABLES*/
+$c0: black;
 $c1: #012113;
-$c2: #222725;
+$c2: #222725cf;
 $c3: #899878;
 $c4: #E4E6C3;
 $c5: #F7F7F2;
@@ -20,21 +25,52 @@ $font2: 'Poppins', sans-serif;
 
 .container-general {
   .container-navbar {
-    .logo-site {
-      #logo-company {}
-    }
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+    border: 3px solid orange;
 
+    .logo-site {
+      #logo-company {
+        width: 8em;
+      }
+    }
+    
     .container-menu {
-      #open-menu {}
+      display: flex;
+      flex-direction: column;
+      text-align: end;
+      align-self: center;
+      
+      #open-menu {
+        color: $c0;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-family: $font2;
+        cursor: pointer;
+      }
       
       .menu {
-        #close-menu {}
+        #close-menu {
+          text-transform: uppercase;
+          font-weight: 400;
+          font-size: 1.2em;
+          color: $c2;
+          font-family: $font2;
+          cursor: pointer;
+        }
+        
         #modes {}
-
+        
         nav {
           #menu-options {
             .links {
-              a {}
+              a {
+                color: $c1;
+                text-transform: uppercase;
+                font-family: $font2;
+                font-weight: 400;
+              }
             }
           }
         }
