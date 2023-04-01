@@ -28,11 +28,12 @@ $font2: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 1.5em;
-    border: 3px solid orange;
-
+    position: sticky;
+    top: 0;
+    
     .logo-site {
       #logo-company {
-        width: 8em;
+        width: 7em;
       }
     }
     
@@ -52,10 +53,10 @@ $font2: 'Poppins', sans-serif;
       
       .menu {
         #close-menu {
+          color: $c2;
           text-transform: uppercase;
           font-weight: 400;
           font-size: 1.2em;
-          color: $c2;
           font-family: $font2;
           cursor: pointer;
         }
@@ -77,17 +78,39 @@ $font2: 'Poppins', sans-serif;
       }
     }
   }
-
+  
   .container-hero-section {
+    min-height: 84.7vh;
+    // border: 3px solid orange;
     .container-texts {
       .text-one {}
-      .text-two {}
+      
+      .text-two {
+        padding: 2em 2em 0 2em;
+        font-family: $font2;
+        font-weight: 300;
+        margin-bottom: 1.1em;
+        text-transform: capitalize;
+        width: 19em;
+
+        span {
+          font-style: italic;
+          font-weight: 400;
+        }
+      }
     }
-
-    .arch-simplorium-one {}
+    
+    .arch-simplorium-one {
+      background-image: url("/Simplorium/assets/images/Hannah-Reding-1.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      min-height: 60vh;
+    }
   }
-
+  
   .container-about {
+    border: 3px solid khaki;
     .container-about-enclousure {
       .title-about {}
       .block-text-about {}

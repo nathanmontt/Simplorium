@@ -17,10 +17,11 @@
   display: flex;
   justify-content: space-between;
   padding: 1.5em;
-  border: 3px solid orange;
+  position: sticky;
+  top: 0;
 }
 .container-general .container-navbar .logo-site #logo-company {
-  width: 8em;
+  width: 7em;
 }
 .container-general .container-navbar .container-menu {
   display: flex;
@@ -36,10 +37,10 @@
   cursor: pointer;
 }
 .container-general .container-navbar .container-menu .menu #close-menu {
+  color: rgba(34, 39, 37, 0.8117647059);
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.2em;
-  color: rgba(34, 39, 37, 0.8117647059);
   font-family: "Poppins", sans-serif;
   cursor: pointer;
 }
@@ -48,4 +49,29 @@
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+}
+.container-general .container-hero-section {
+  min-height: 84.7vh;
+}
+.container-general .container-hero-section .container-texts .text-two {
+  padding: 2em 2em 0 2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-bottom: 1.1em;
+  text-transform: capitalize;
+  width: 19em;
+}
+.container-general .container-hero-section .container-texts .text-two span {
+  font-style: italic;
+  font-weight: 400;
+}
+.container-general .container-hero-section .arch-simplorium-one {
+  background-image: url("/Simplorium/assets/images/Hannah-Reding-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 60vh;
+}
+.container-general .container-about {
+  border: 3px solid khaki;
 }/*# sourceMappingURL=style.css.map */
