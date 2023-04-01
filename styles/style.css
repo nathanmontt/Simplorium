@@ -73,5 +73,32 @@
   min-height: 60vh;
 }
 .container-general .container-about {
-  border: 3px solid khaki;
+  min-height: 100vh;
+  padding: 1.5em;
+}
+.container-general .container-about .container-about-enclousure {
+  line-height: 1.9em;
+}
+.container-general .container-about .container-about-enclousure .title-about {
+  font-family: "Noto Serif KR", serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 0.4em;
+}
+.container-general .container-about .container-about-enclousure .line {
+  position: relative;
+  padding-bottom: 1.5em;
+}
+.container-general .container-about .container-about-enclousure .line::before {
+  position: absolute;
+  content: "";
+  border: 0.01em solid black;
+  width: 4em;
+}
+.container-general .container-about .container-about-enclousure .block-text-about {
+  font-family: "Poppins", sans-serif;
+}
+.container-general .container-about .container-about-enclousure .block-text-about span {
+  font-style: italic;
 }/*# sourceMappingURL=style.css.map */

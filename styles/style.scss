@@ -110,10 +110,37 @@ $font2: 'Poppins', sans-serif;
   }
   
   .container-about {
-    border: 3px solid khaki;
+    min-height: 100vh;
+    padding: 1.5em;
+    
     .container-about-enclousure {
-      .title-about {}
-      .block-text-about {}
+      // border: 3px solid khaki;
+      line-height: 1.9em;
+      .title-about {
+        font-family: $font1;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.5em;
+        margin-bottom: .4em;
+      }
+
+      .line {
+        position: relative;
+        padding-bottom: 1.5em;
+        &::before {
+          position: absolute;
+          content: "";
+          border: .01em solid $c0;
+          width: 4em;
+        }
+      }
+
+      .block-text-about {
+        font-family: $font2;
+        span {
+          font-style: italic;
+        }
+      }
     }
   }
 
