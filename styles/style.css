@@ -101,4 +101,29 @@
 }
 .container-general .container-about .container-about-enclousure .block-text-about span {
   font-style: italic;
+}
+.container-general .container-services {
+  min-height: 100vh;
+  padding: 1.5em;
+  border: 3px solid khaki;
+}
+.container-general .container-services .container-services-enclousure .title-services {
+  font-family: "Noto Serif KR", serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 0.4em;
+}
+.container-general .container-services .container-services-enclousure .line {
+  position: relative;
+  padding-bottom: 1.5em;
+}
+.container-general .container-services .container-services-enclousure .line::before {
+  position: absolute;
+  content: "";
+  border: 0.01em solid black;
+  width: 4em;
+}
+.container-general .container-services .container-services-enclousure .container-specific-service .flex-image-1 .service-photo-one {
+  width: 10em;
 }/*# sourceMappingURL=style.css.map */

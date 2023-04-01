@@ -114,7 +114,6 @@ $font2: 'Poppins', sans-serif;
     padding: 1.5em;
     
     .container-about-enclousure {
-      // border: 3px solid khaki;
       line-height: 1.9em;
       .title-about {
         font-family: $font1;
@@ -143,10 +142,31 @@ $font2: 'Poppins', sans-serif;
       }
     }
   }
-
+  
   .container-services {
+    min-height: 100vh;
+    padding: 1.5em;
+    border: 3px solid khaki;
+
     .container-services-enclousure {
-      .title-service {}
+      .title-services {
+        font-family: $font1;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.5em;
+        margin-bottom: .4em;
+      }
+
+      .line {
+        position: relative;
+        padding-bottom: 1.5em;
+        &::before {
+          position: absolute;
+          content: "";
+          border: .01em solid $c0;
+          width: 4em;
+        }
+      }
 
       .container-specific-service {
         .topic-one {
@@ -156,7 +176,9 @@ $font2: 'Poppins', sans-serif;
         .small-explain-text {}
 
         .flex-image-1 {
-          .service-photo-one {}
+          .service-photo-one {
+            width: 10em;
+          }
         }
         
         .topic-two {
