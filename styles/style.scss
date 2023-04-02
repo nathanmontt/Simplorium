@@ -169,36 +169,31 @@ $font2: 'Poppins', sans-serif;
       }
 
       .container-specific-service {
-        .topic-one {
-          span {}
-        }
-
-        .small-explain-text {}
-
-        .flex-image-1 {
-          .service-photo-one {
-            width: 10em;
+        .topic-one,
+        .topic-two,
+        .topic-three {
+          span {
+            font-family: $font2;
+            font-weight: 200;
+            text-transform: uppercase;
           }
         }
-        
-        .topic-two {
-          span {}
+
+        .small-explain-text {
+          // margin-bottom: 1em;
         }
 
-        .small-explain-text {}
-
-        .flex-image-2 {
-          .service-photo-two {}
-        }
-
-        .topic-three {
-          span {}
-        }
-
-        .small-explain-text {}
-
+        .flex-image-1,
+        .flex-image-2,
         .flex-image-3 {
-          .service-photo-three {}
+          .service-photo-one,
+          .service-photo-two,
+          .service-photo-three {
+            width: 15em;
+            margin: .5em 0 1em 0;
+            //center the image
+            // display: block;
+          }
         }
       }
     }

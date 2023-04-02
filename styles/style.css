@@ -124,6 +124,22 @@
   border: 0.01em solid black;
   width: 4em;
 }
-.container-general .container-services .container-services-enclousure .container-specific-service .flex-image-1 .service-photo-one {
-  width: 10em;
+.container-general .container-services .container-services-enclousure .container-specific-service .topic-one span,
+.container-general .container-services .container-services-enclousure .container-specific-service .topic-two span,
+.container-general .container-services .container-services-enclousure .container-specific-service .topic-three span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.container-general .container-services .container-services-enclousure .container-specific-service .flex-image-1 .service-photo-one,
+.container-general .container-services .container-services-enclousure .container-specific-service .flex-image-1 .service-photo-two,
+.container-general .container-services .container-services-enclousure .container-specific-service .flex-image-1 .service-photo-three,
+.container-general .container-services .container-services-enclousure .container-specific-service .flex-image-2 .service-photo-one,
+.container-general .container-services .container-services-enclousure .container-specific-service .flex-image-2 .service-photo-two,
+.container-general .container-services .container-services-enclousure .container-specific-service .flex-image-2 .service-photo-three,
+.container-general .container-services .container-services-enclousure .container-specific-service .flex-image-3 .service-photo-one,
+.container-general .container-services .container-services-enclousure .container-specific-service .flex-image-3 .service-photo-two,
+.container-general .container-services .container-services-enclousure .container-specific-service .flex-image-3 .service-photo-three {
+  width: 15em;
+  margin: 0.5em 0 1em 0;
 }/*# sourceMappingURL=style.css.map */
