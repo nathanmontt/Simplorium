@@ -20,6 +20,7 @@ $c2: #222725cf;
 $c3: #899878;
 $c4: #E4E6C3;
 $c5: #F7F7F2;
+$c6: #101010;
 $font1: 'Noto Serif KR', serif;
 $font2: 'Poppins', sans-serif;
 
@@ -146,6 +147,7 @@ $font2: 'Poppins', sans-serif;
   .container-services {
     min-height: 100vh;
     padding: 1.5em;
+    background-color: $c6;
     
     .container-services-enclousure {
       .title-services {
@@ -154,15 +156,16 @@ $font2: 'Poppins', sans-serif;
         font-weight: 600;
         font-size: 1.5em;
         margin-bottom: .4em;
+        color: $c5;
       }
-
+      
       .line {
         position: relative;
         padding-bottom: 1.5em;
         &::before {
           position: absolute;
           content: "";
-          border: .01em solid $c0;
+          border: .01em solid $c5;
           width: 4em;
         }
       }
@@ -174,6 +177,7 @@ $font2: 'Poppins', sans-serif;
           font-family: $font2;
           font-weight: 300;
           text-transform: uppercase;
+          color: $c5;
           
           span {
             font-size: .9em;
@@ -187,15 +191,16 @@ $font2: 'Poppins', sans-serif;
           font-weight: 200;
           margin: .2em 0 .3em 0;
           font-size: .9em;
+          color: $c5;
         }
-
+        
         .flex-image-1,
         .flex-image-2,
         .flex-image-3 {
           .service-photo-one,
           .service-photo-two,
           .service-photo-three {
-            width: 15em;
+            width: 17em;
             margin: .5em 0 1em 0;
             //center the image
             // display: block;
@@ -204,11 +209,10 @@ $font2: 'Poppins', sans-serif;
       }
     }
   }
-
+  
   .container-our-team {
     min-height: 100vh;
     padding: 1.5em;
-    border: 3px solid khaki;
     .container-our-team-enclousure {
       .container-text-team {
         .title-team {
@@ -218,7 +222,7 @@ $font2: 'Poppins', sans-serif;
           font-size: 1.5em;
           margin-bottom: .4em;
         }
-
+        
         .line {
           position: relative;
           padding-bottom: 1.3em;
@@ -229,7 +233,7 @@ $font2: 'Poppins', sans-serif;
             width: 4em;
           }
         }
-
+        
         .text-team {
           font-family: $font2;
           font-weight: 300;
@@ -238,7 +242,7 @@ $font2: 'Poppins', sans-serif;
           font-size: .9em;
         }
       }
-
+      
       .container-team {
         .container-info-team {
           .profile-pic {
@@ -252,23 +256,101 @@ $font2: 'Poppins', sans-serif;
       }
     }
   }
-
+  
   .container-footer {
+    min-height: 100vh;
+    padding: 1.5em;
+    background-color: $c6;
+    border: 3px solid khaki;
+
     footer {
+      color: $c5;
       .container-footer-enclousure {
         .container-text-footer {
-          .title-footer {}
-          .question-text-footer {}
+          .question-text-footer {
+            font-family: $font2;
+            font-weight: 200;
+            font-size: 1.1em;
+            margin-bottom: 1em;
+          }
         }
-
+        
         form {
-          .title-forms {}
+          display: flex;
+          flex-direction: column;
+          .text-forms {
+            font-family: $font2;
+            font-weight: 400;
+            font-size: 1.1em;
+            margin-bottom: 1em;
+            letter-spacing: .01em;
+          }
+          
+          #name {
+            border: none;
+            border-bottom: .01rem solid white;
+            outline: none;
+            background-color: transparent;
+            color: $c5;
+            font-family: $font2;
+            font-weight: 200;
+            font-size: 1.01em;
+            margin-bottom: 1em;
+          }
+          
+          #phone { 
+            border: none;
+            border-bottom: .01rem solid white;
+            outline: none;
+            background-color: transparent;
+            color: $c5;
+            font-family: $font2;
+            font-weight: 200;
+            font-size: 1.01em;
+            margin-bottom: 1em;
+          }
 
-          #name {}
-          #phone {}
-          #email {}
-          #button {}
+          #email { 
+            border: none;
+            border-bottom: .01rem solid white;
+            outline: none;
+            background-color: transparent;
+            color: $c5;
+            font-family: $font2;
+            font-weight: 200;
+            font-size: 1.01em;
+            margin-bottom: 1.7em;
+          }
+
+          #button { 
+            border: .01em solid $c5; 
+            outline: none;
+            background-color: transparent;
+            color: $c5;
+            font-family: $font2;
+            font-weight: 200;
+            margin-bottom: 1.5em;
+            padding: .4em 1em .4em 1em;
+            cursor: pointer;
+            transition: background-color .5s, color .5s;
+
+            &:hover {
+              background-color: $c5;
+              color: $c0;
+            }
+          }
         }
+      }
+
+      .line {
+        position: relative;
+          padding-bottom: 1.3em;
+          &::before {
+            position: absolute;
+            content: "";
+            border: .01em solid $c5;
+            width: 15em;
+          }
       }
 
       .container-footer-links {

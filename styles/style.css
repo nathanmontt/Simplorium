@@ -105,6 +105,7 @@
 .container-general .container-services {
   min-height: 100vh;
   padding: 1.5em;
+  background-color: #101010;
 }
 .container-general .container-services .container-services-enclousure .title-services {
   font-family: "Noto Serif KR", serif;
@@ -112,6 +113,7 @@
   font-weight: 600;
   font-size: 1.5em;
   margin-bottom: 0.4em;
+  color: #F7F7F2;
 }
 .container-general .container-services .container-services-enclousure .line {
   position: relative;
@@ -120,7 +122,7 @@
 .container-general .container-services .container-services-enclousure .line::before {
   position: absolute;
   content: "";
-  border: 0.01em solid black;
+  border: 0.01em solid #F7F7F2;
   width: 4em;
 }
 .container-general .container-services .container-services-enclousure .container-specific-service .topic-one,
@@ -129,6 +131,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+  color: #F7F7F2;
 }
 .container-general .container-services .container-services-enclousure .container-specific-service .topic-one span,
 .container-general .container-services .container-services-enclousure .container-specific-service .topic-two span,
@@ -142,6 +145,7 @@
   font-weight: 200;
   margin: 0.2em 0 0.3em 0;
   font-size: 0.9em;
+  color: #F7F7F2;
 }
 .container-general .container-services .container-services-enclousure .container-specific-service .flex-image-1 .service-photo-one,
 .container-general .container-services .container-services-enclousure .container-specific-service .flex-image-1 .service-photo-two,
@@ -152,13 +156,12 @@
 .container-general .container-services .container-services-enclousure .container-specific-service .flex-image-3 .service-photo-one,
 .container-general .container-services .container-services-enclousure .container-specific-service .flex-image-3 .service-photo-two,
 .container-general .container-services .container-services-enclousure .container-specific-service .flex-image-3 .service-photo-three {
-  width: 15em;
+  width: 17em;
   margin: 0.5em 0 1em 0;
 }
 .container-general .container-our-team {
   min-height: 100vh;
   padding: 1.5em;
-  border: 3px solid khaki;
 }
 .container-general .container-our-team .container-our-team-enclousure .container-text-team .title-team {
   font-family: "Noto Serif KR", serif;
@@ -186,4 +189,89 @@
 }
 .container-general .container-our-team .container-our-team-enclousure .container-team .container-info-team .profile-pic {
   width: 12em;
+}
+.container-general .container-footer {
+  min-height: 100vh;
+  padding: 1.5em;
+  background-color: #101010;
+  border: 3px solid khaki;
+}
+.container-general .container-footer footer {
+  color: #F7F7F2;
+}
+.container-general .container-footer footer .container-footer-enclousure .container-text-footer .question-text-footer {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+.container-general .container-footer footer .container-footer-enclousure form {
+  display: flex;
+  flex-direction: column;
+}
+.container-general .container-footer footer .container-footer-enclousure form .text-forms {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  letter-spacing: 0.01em;
+}
+.container-general .container-footer footer .container-footer-enclousure form #name {
+  border: none;
+  border-bottom: 0.01rem solid white;
+  outline: none;
+  background-color: transparent;
+  color: #F7F7F2;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1.01em;
+  margin-bottom: 1em;
+}
+.container-general .container-footer footer .container-footer-enclousure form #phone {
+  border: none;
+  border-bottom: 0.01rem solid white;
+  outline: none;
+  background-color: transparent;
+  color: #F7F7F2;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1.01em;
+  margin-bottom: 1em;
+}
+.container-general .container-footer footer .container-footer-enclousure form #email {
+  border: none;
+  border-bottom: 0.01rem solid white;
+  outline: none;
+  background-color: transparent;
+  color: #F7F7F2;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1.01em;
+  margin-bottom: 1.7em;
+}
+.container-general .container-footer footer .container-footer-enclousure form #button {
+  border: 0.01em solid #F7F7F2;
+  outline: none;
+  background-color: transparent;
+  color: #F7F7F2;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  margin-bottom: 1.5em;
+  padding: 0.4em 1em 0.4em 1em;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+.container-general .container-footer footer .container-footer-enclousure form #button:hover {
+  background-color: #F7F7F2;
+  color: black;
+}
+.container-general .container-footer footer .line {
+  position: relative;
+  padding-bottom: 1.3em;
+}
+.container-general .container-footer footer .line::before {
+  position: absolute;
+  content: "";
+  border: 0.01em solid #F7F7F2;
+  width: 15em;
 }/*# sourceMappingURL=style.css.map */
