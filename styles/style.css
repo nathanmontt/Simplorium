@@ -154,4 +154,33 @@
 .container-general .container-services .container-services-enclousure .container-specific-service .flex-image-3 .service-photo-three {
   width: 15em;
   margin: 0.5em 0 1em 0;
+}
+.container-general .container-our-team {
+  min-height: 100vh;
+  padding: 1.5em;
+  border: 3px solid khaki;
+}
+.container-general .container-our-team .container-our-team-enclousure .container-text-team .title-team {
+  font-family: "Noto Serif KR", serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 0.4em;
+}
+.container-general .container-our-team .container-our-team-enclousure .container-text-team .line {
+  position: relative;
+  padding-bottom: 1.3em;
+}
+.container-general .container-our-team .container-our-team-enclousure .container-text-team .line::before {
+  position: absolute;
+  content: "";
+  border: 0.01em solid black;
+  width: 4em;
+}
+.container-general .container-our-team .container-our-team-enclousure .container-text-team .text-team {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-bottom: 1em;
+  font-style: italic;
+  font-size: 0.9em;
 }/*# sourceMappingURL=style.css.map */
